@@ -241,21 +241,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .wrap main .contactForm form .section-left {
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
 }
 
 .wrap main .contactForm form .section-left textarea {
+  width: 500px;
+  height: 300px;
   resize: none;
   border-radius: 8px;
   padding: 4px;
@@ -272,7 +270,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
 }
 
 .wrap main .contactForm form .section-right .input-item {
@@ -286,7 +283,8 @@
 .wrap main .contactForm form .section-right .input-item input {
   border-radius: 4px;
   padding: 4px 8px;
-  width: 100%;
+  width: 400px;
+  height: 30px;
   font-size: 1.2rem;
   border: none;
 }
@@ -303,7 +301,7 @@
   font-size: 1rem;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
-  margin-left: 360px;
+  margin-left: 300px;
 }
 
 .wrap main .contactForm form .section-right button:hover {
