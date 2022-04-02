@@ -173,6 +173,7 @@
         .section-left {
           padding: 20px;
           display: flex;
+          width: 50%;
           textarea {
             resize: none;
             border-radius: 8px;
@@ -183,6 +184,8 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          width: 50%;
+
           .input-item {
             margin-bottom: 12px;
             label {
@@ -206,7 +209,7 @@
             text-decoration: none;
             font-size: 1rem;
             transition-duration: 0.4s;
-            align-self: flex-end;
+            margin-left: 360px;
             &:hover {
               color: #4caf50; /* Green */
               background-color: white;

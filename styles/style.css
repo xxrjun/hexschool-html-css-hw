@@ -252,6 +252,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50%;
 }
 
 .wrap main .contactForm form .section-left textarea {
@@ -271,6 +272,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 50%;
 }
 
 .wrap main .contactForm form .section-right .input-item {
@@ -301,8 +303,7 @@
   font-size: 1rem;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  margin-left: 360px;
 }
 
 .wrap main .contactForm form .section-right button:hover {
